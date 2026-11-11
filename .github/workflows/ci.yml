@@ -12,10 +12,10 @@ permissions:
 jobs:
   quality:
     name: Lint, types and tests
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
           cache: pip
@@ -27,13 +27,13 @@ jobs:
 
   compose:
     name: Docker Compose end to end
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     needs: quality
     env:
       COW_DATA_DIR: ./sample_data
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
       - name: Generate sample data
@@ -69,17 +69,17 @@ jobs:
 
   terraform:
     name: Terraform end to end
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     needs: quality
     defaults:
       run:
         working-directory: terraform
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
-      - uses: hashicorp/setup-terraform@v3
+      - uses: hashicorp/setup-terraform@v4
         with:
           terraform_version: "1.9.8"
           terraform_wrapper: false
