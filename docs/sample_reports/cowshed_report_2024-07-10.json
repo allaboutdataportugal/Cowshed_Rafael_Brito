@@ -1,0 +1,1486 @@
+{
+  "report_date": "2024-07-10",
+  "timezone": "UTC",
+  "window_start": "2024-07-10T00:00:00Z",
+  "window_end": "2024-07-11T00:00:00Z",
+  "generated_at": "2026-11-11T23:22:04.116172Z",
+  "cows": [
+    {
+      "cow_id": "b595d0d1-612b-4aef-a64a-1ee0471a5028",
+      "name": "Adriana #7",
+      "milk_liters": 9.27,
+      "milk_readings": 2,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 553.05,
+      "current_weight_measured_at": "2024-07-10T22:00:00Z",
+      "avg_weight_30d_kg": 553.65,
+      "weight_readings_30d": 84
+    },
+    {
+      "cow_id": "5693cf1f-865a-41a9-9f7d-789d27e32910",
+      "name": "Alexandra #8",
+      "milk_liters": 24.16,
+      "milk_readings": 5,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 558.61,
+      "current_weight_measured_at": "2024-07-10T14:00:00Z",
+      "avg_weight_30d_kg": 558.54,
+      "weight_readings_30d": 87
+    },
+    {
+      "cow_id": "7d68d8d2-6b6c-4dbf-86b5-c9e123ecba97",
+      "name": "Alexandria #1",
+      "milk_liters": 9.74,
+      "milk_readings": 2,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 559.86,
+      "current_weight_measured_at": "2024-07-10T14:00:00Z",
+      "avg_weight_30d_kg": 558.96,
+      "weight_readings_30d": 90
+    },
+    {
+      "cow_id": "33b66bab-78b3-45e0-a86b-32e775d4dc2b",
+      "name": "Alexandria #4",
+      "milk_liters": 14.34,
+      "milk_readings": 3,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 548.72,
+      "current_weight_measured_at": "2024-07-10T22:00:00Z",
+      "avg_weight_30d_kg": 547.2,
+      "weight_readings_30d": 69
+    },
+    {
+      "cow_id": "be4ca0d5-80a0-434d-beee-e05702091b0e",
+      "name": "Alyssa #5",
+      "milk_liters": 9.51,
+      "milk_readings": 2,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 545.33,
+      "current_weight_measured_at": "2024-07-10T22:00:00Z",
+      "avg_weight_30d_kg": 545.19,
+      "weight_readings_30d": 80
+    },
+    {
+      "cow_id": "cdbab92f-fd6c-4714-b2c1-7c8df2830930",
+      "name": "Amanda #5",
+      "milk_liters": 23.64,
+      "milk_readings": 5,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 545.41,
+      "current_weight_measured_at": "2024-07-10T18:00:00Z",
+      "avg_weight_30d_kg": 544.65,
+      "weight_readings_30d": 75
+    },
+    {
+      "cow_id": "a27b8cd2-708e-4532-81ef-05a5b2ab249c",
+      "name": "Amber #9",
+      "milk_liters": 18.86,
+      "milk_readings": 4,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 544.03,
+      "current_weight_measured_at": "2024-07-10T18:00:00Z",
+      "avg_weight_30d_kg": 543.94,
+      "weight_readings_30d": 77
+    },
+    {
+      "cow_id": "d3b1eb0c-3260-4f46-a6e2-960be64c89bd",
+      "name": "Andrea #6",
+      "milk_liters": 4.98,
+      "milk_readings": 1,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 549.99,
+      "current_weight_measured_at": "2024-07-10T14:00:00Z",
+      "avg_weight_30d_kg": 549.99,
+      "weight_readings_30d": 82
+    },
+    {
+      "cow_id": "3f35a21f-5ce8-4b9b-a6ea-67666aa6a183",
+      "name": "Angela #5",
+      "milk_liters": 18.62,
+      "milk_readings": 4,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 553.9,
+      "current_weight_measured_at": "2024-07-10T18:00:00Z",
+      "avg_weight_30d_kg": 553.45,
+      "weight_readings_30d": 69
+    },
+    {
+      "cow_id": "0c36be13-c29f-4ee0-b386-e936c6ba5339",
+      "name": "Angela #8",
+      "milk_liters": 14.26,
+      "milk_readings": 3,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 539.5,
+      "current_weight_measured_at": "2024-07-10T18:00:00Z",
+      "avg_weight_30d_kg": 539.8,
+      "weight_readings_30d": 76
+    },
+    {
+      "cow_id": "47a81ce1-859a-4db9-b8ad-a27cb9dc462f",
+      "name": "Anna #1",
+      "milk_liters": 19.09,
+      "milk_readings": 4,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 553.36,
+      "current_weight_measured_at": "2024-07-10T14:00:00Z",
+      "avg_weight_30d_kg": 554.72,
+      "weight_readings_30d": 80
+    },
+    {
+      "cow_id": "2638ae21-5fc8-48fa-ad34-e66baf66cba3",
+      "name": "Anne #1",
+      "milk_liters": 14.19,
+      "milk_readings": 3,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 550.77,
+      "current_weight_measured_at": "2024-07-10T22:00:00Z",
+      "avg_weight_30d_kg": 550.7,
+      "weight_readings_30d": 73
+    },
+    {
+      "cow_id": "4b54f862-7dd7-4569-950c-e071fd13c575",
+      "name": "Anne #4",
+      "milk_liters": 23.75,
+      "milk_readings": 5,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 472.17,
+      "current_weight_measured_at": "2024-07-10T22:00:00Z",
+      "avg_weight_30d_kg": 510.59,
+      "weight_readings_30d": 74
+    },
+    {
+      "cow_id": "0abaa73d-0755-478a-9a56-b97a5cbdd64f",
+      "name": "Ashlee #2",
+      "milk_liters": 18.9,
+      "milk_readings": 4,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 545.65,
+      "current_weight_measured_at": "2024-07-10T10:00:00Z",
+      "avg_weight_30d_kg": 546.95,
+      "weight_readings_30d": 74
+    },
+    {
+      "cow_id": "38c98773-d708-47ae-af66-f722fabbc9d2",
+      "name": "Ashlee #9",
+      "milk_liters": 4.98,
+      "milk_readings": 1,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 543.12,
+      "current_weight_measured_at": "2024-07-10T22:00:00Z",
+      "avg_weight_30d_kg": 543.1,
+      "weight_readings_30d": 87
+    },
+    {
+      "cow_id": "071f30bb-3b8a-445b-8c5f-dff6c77c1af8",
+      "name": "Ashley #1",
+      "milk_liters": 14.24,
+      "milk_readings": 3,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 550.91,
+      "current_weight_measured_at": "2024-07-10T10:00:00Z",
+      "avg_weight_30d_kg": 551.17,
+      "weight_readings_30d": 83
+    },
+    {
+      "cow_id": "fa91ebe6-476f-469f-9d62-2f893fe210f6",
+      "name": "Ashley #2",
+      "milk_liters": 4.52,
+      "milk_readings": 1,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 543.14,
+      "current_weight_measured_at": "2024-07-10T22:00:00Z",
+      "avg_weight_30d_kg": 543.26,
+      "weight_readings_30d": 98
+    },
+    {
+      "cow_id": "8d2d3166-a295-40ea-9c48-6dc26e180159",
+      "name": "Ashley #3",
+      "milk_liters": 14.1,
+      "milk_readings": 3,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 564.77,
+      "current_weight_measured_at": "2024-07-10T22:00:00Z",
+      "avg_weight_30d_kg": 563.22,
+      "weight_readings_30d": 96
+    },
+    {
+      "cow_id": "1738d527-c14e-4832-b40f-e8946f065d2c",
+      "name": "Barbara #5",
+      "milk_liters": 14.41,
+      "milk_readings": 3,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 550.62,
+      "current_weight_measured_at": "2024-07-10T14:00:00Z",
+      "avg_weight_30d_kg": 550.35,
+      "weight_readings_30d": 89
+    },
+    {
+      "cow_id": "c158759b-dcfe-417d-ae3d-c8e38f567325",
+      "name": "Becky #1",
+      "milk_liters": 23.72,
+      "milk_readings": 5,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 558.7,
+      "current_weight_measured_at": "2024-07-10T14:00:00Z",
+      "avg_weight_30d_kg": 557.97,
+      "weight_readings_30d": 73
+    },
+    {
+      "cow_id": "50b99487-9827-440c-a12e-d1f9c1d075e3",
+      "name": "Brandi #1",
+      "milk_liters": 23.35,
+      "milk_readings": 5,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 544.47,
+      "current_weight_measured_at": "2024-07-10T18:00:00Z",
+      "avg_weight_30d_kg": 545.28,
+      "weight_readings_30d": 67
+    },
+    {
+      "cow_id": "6c20e977-42b1-46d8-9e38-b9b0571b82a5",
+      "name": "Brandi #8",
+      "milk_liters": 14.56,
+      "milk_readings": 3,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 551.19,
+      "current_weight_measured_at": "2024-07-10T18:00:00Z",
+      "avg_weight_30d_kg": 550.58,
+      "weight_readings_30d": 74
+    },
+    {
+      "cow_id": "59beca2a-b84a-49b6-9ba7-60944e552cc7",
+      "name": "Brittany #6",
+      "milk_liters": 27.91,
+      "milk_readings": 6,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 548.56,
+      "current_weight_measured_at": "2024-07-09T14:00:00Z",
+      "avg_weight_30d_kg": 549.1,
+      "weight_readings_30d": 79
+    },
+    {
+      "cow_id": "7389aa61-3add-4f92-b38a-6b23cf389dcf",
+      "name": "Brittany #7",
+      "milk_liters": 14.42,
+      "milk_readings": 3,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 551.29,
+      "current_weight_measured_at": "2024-07-10T22:00:00Z",
+      "avg_weight_30d_kg": 552.03,
+      "weight_readings_30d": 79
+    },
+    {
+      "cow_id": "80aba664-c7e2-4ffe-bbb5-12325596f641",
+      "name": "Brooke #2",
+      "milk_liters": 23.39,
+      "milk_readings": 5,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 554.5,
+      "current_weight_measured_at": "2024-07-10T02:00:00Z",
+      "avg_weight_30d_kg": 554.3,
+      "weight_readings_30d": 89
+    },
+    {
+      "cow_id": "85a129d2-0380-450e-a868-b8309bd7550f",
+      "name": "Carla #3",
+      "milk_liters": 14.31,
+      "milk_readings": 3,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 548.72,
+      "current_weight_measured_at": "2024-07-10T14:00:00Z",
+      "avg_weight_30d_kg": 548.23,
+      "weight_readings_30d": 83
+    },
+    {
+      "cow_id": "474ccf64-c5bb-45a7-a5e5-11ccabaef643",
+      "name": "Cassandra #4",
+      "milk_liters": 18.88,
+      "milk_readings": 4,
+      "milk_invalid_readings": 1,
+      "current_weight_kg": 555.63,
+      "current_weight_measured_at": "2024-07-10T18:00:00Z",
+      "avg_weight_30d_kg": 556.0,
+      "weight_readings_30d": 76
+    },
+    {
+      "cow_id": "e69e914f-2797-4ed1-a32f-606cb03fc6f2",
+      "name": "Cathy #3",
+      "milk_liters": 14.52,
+      "milk_readings": 3,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 557.08,
+      "current_weight_measured_at": "2024-07-10T22:00:00Z",
+      "avg_weight_30d_kg": 557.19,
+      "weight_readings_30d": 78
+    },
+    {
+      "cow_id": "4ab95eda-5937-49be-8425-b11d06f6beb2",
+      "name": "Cheryl #5",
+      "milk_liters": null,
+      "milk_readings": 0,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 544.08,
+      "current_weight_measured_at": "2024-07-10T22:00:00Z",
+      "avg_weight_30d_kg": 543.39,
+      "weight_readings_30d": 76
+    },
+    {
+      "cow_id": "1a0e14cf-587a-440f-8c5e-39fe86f48ec7",
+      "name": "Cheyenne #6",
+      "milk_liters": 18.86,
+      "milk_readings": 4,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 547.79,
+      "current_weight_measured_at": "2024-07-10T14:00:00Z",
+      "avg_weight_30d_kg": 547.44,
+      "weight_readings_30d": 87
+    },
+    {
+      "cow_id": "2be429fe-6e2b-4e72-a93e-2d96d445a5e2",
+      "name": "Christina #3",
+      "milk_liters": 19.15,
+      "milk_readings": 4,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 556.9,
+      "current_weight_measured_at": "2024-07-10T10:00:00Z",
+      "avg_weight_30d_kg": 557.26,
+      "weight_readings_30d": 94
+    },
+    {
+      "cow_id": "70ba6fcc-6fb2-4af9-a69c-7b6d546e2256",
+      "name": "Christine #8",
+      "milk_liters": 28.64,
+      "milk_readings": 6,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 552.67,
+      "current_weight_measured_at": "2024-07-09T14:00:00Z",
+      "avg_weight_30d_kg": 551.26,
+      "weight_readings_30d": 89
+    },
+    {
+      "cow_id": "7255f6ed-8b6e-4fa5-b6bf-676663ba7e48",
+      "name": "Claudia #5",
+      "milk_liters": 14.23,
+      "milk_readings": 3,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 542.6,
+      "current_weight_measured_at": "2024-07-10T10:00:00Z",
+      "avg_weight_30d_kg": 543.29,
+      "weight_readings_30d": 78
+    },
+    {
+      "cow_id": "fd3f2886-cc3d-4ecc-baae-587032183091",
+      "name": "Connie #1",
+      "milk_liters": 9.73,
+      "milk_readings": 2,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 556.59,
+      "current_weight_measured_at": "2024-07-10T22:00:00Z",
+      "avg_weight_30d_kg": 556.08,
+      "weight_readings_30d": 73
+    },
+    {
+      "cow_id": "dd57c558-d620-4d28-83a7-6370f4a61322",
+      "name": "Crystal #2",
+      "milk_liters": 18.7,
+      "milk_readings": 4,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 549.71,
+      "current_weight_measured_at": "2024-07-10T14:00:00Z",
+      "avg_weight_30d_kg": 549.99,
+      "weight_readings_30d": 83
+    },
+    {
+      "cow_id": "8f74a252-78ce-49d4-9432-ce556e226d29",
+      "name": "Cynthia #3",
+      "milk_liters": 18.87,
+      "milk_readings": 4,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 549.57,
+      "current_weight_measured_at": "2024-07-10T14:00:00Z",
+      "avg_weight_30d_kg": 549.41,
+      "weight_readings_30d": 78
+    },
+    {
+      "cow_id": "8051343c-56d2-46c5-a24c-2e6d0858f2aa",
+      "name": "Dawn #1",
+      "milk_liters": 19.04,
+      "milk_readings": 4,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 548.46,
+      "current_weight_measured_at": "2024-07-10T14:00:00Z",
+      "avg_weight_30d_kg": 549.41,
+      "weight_readings_30d": 92
+    },
+    {
+      "cow_id": "991670bb-d888-4a95-94b8-41b290122833",
+      "name": "Deborah #1",
+      "milk_liters": 14.08,
+      "milk_readings": 3,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 551.51,
+      "current_weight_measured_at": "2024-07-10T22:00:00Z",
+      "avg_weight_30d_kg": 550.14,
+      "weight_readings_30d": 88
+    },
+    {
+      "cow_id": "69ceb9e9-630d-4e23-b5f5-81c024e84168",
+      "name": "Deborah #8",
+      "milk_liters": 9.2,
+      "milk_readings": 2,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 548.68,
+      "current_weight_measured_at": "2024-07-10T22:00:00Z",
+      "avg_weight_30d_kg": 549.58,
+      "weight_readings_30d": 50
+    },
+    {
+      "cow_id": "98ca68bf-816c-4b90-b7e2-678e9069fdf8",
+      "name": "Debra #1",
+      "milk_liters": 14.29,
+      "milk_readings": 3,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 551.31,
+      "current_weight_measured_at": "2024-07-10T18:00:00Z",
+      "avg_weight_30d_kg": 550.97,
+      "weight_readings_30d": 90
+    },
+    {
+      "cow_id": "fed3a6af-8729-4ac6-920a-f5487cb00dd9",
+      "name": "Debra #2",
+      "milk_liters": 14.25,
+      "milk_readings": 3,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 546.5,
+      "current_weight_measured_at": "2024-07-10T18:00:00Z",
+      "avg_weight_30d_kg": 545.56,
+      "weight_readings_30d": 75
+    },
+    {
+      "cow_id": "586c87f6-4a4e-4996-b560-fc5490a4ad4d",
+      "name": "Debra #6",
+      "milk_liters": 14.09,
+      "milk_readings": 3,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 549.56,
+      "current_weight_measured_at": "2024-07-10T22:00:00Z",
+      "avg_weight_30d_kg": 549.39,
+      "weight_readings_30d": 80
+    },
+    {
+      "cow_id": "e5d23a6a-3913-4aff-8f90-9aec74ba7553",
+      "name": "Desiree #5",
+      "milk_liters": 9.25,
+      "milk_readings": 2,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 553.48,
+      "current_weight_measured_at": "2024-07-10T18:00:00Z",
+      "avg_weight_30d_kg": 553.46,
+      "weight_readings_30d": 73
+    },
+    {
+      "cow_id": "ade0509d-9078-4159-a207-b866725d2218",
+      "name": "Destiny #1",
+      "milk_liters": 18.67,
+      "milk_readings": 4,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 540.07,
+      "current_weight_measured_at": "2024-07-10T18:00:00Z",
+      "avg_weight_30d_kg": 539.37,
+      "weight_readings_30d": 82
+    },
+    {
+      "cow_id": "f5c0dc0e-aa4e-45af-9b17-8aa3366a7bc6",
+      "name": "Diane #8",
+      "milk_liters": 4.71,
+      "milk_readings": 1,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 540.81,
+      "current_weight_measured_at": "2024-07-10T18:00:00Z",
+      "avg_weight_30d_kg": 541.08,
+      "weight_readings_30d": 82
+    },
+    {
+      "cow_id": "adadab8b-c876-4733-b1ea-bdf67db55051",
+      "name": "Dominique #2",
+      "milk_liters": null,
+      "milk_readings": 0,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 550.83,
+      "current_weight_measured_at": "2024-07-10T22:00:00Z",
+      "avg_weight_30d_kg": 549.78,
+      "weight_readings_30d": 74
+    },
+    {
+      "cow_id": "9d029bf7-8984-4077-b2fd-e43a4e7cbd09",
+      "name": "Donna #4",
+      "milk_liters": 14.13,
+      "milk_readings": 3,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 557.73,
+      "current_weight_measured_at": "2024-07-10T18:00:00Z",
+      "avg_weight_30d_kg": 557.67,
+      "weight_readings_30d": 77
+    },
+    {
+      "cow_id": "0ebfdca5-b52e-4ee2-b896-bce145daebc7",
+      "name": "Elizabeth #2",
+      "milk_liters": 14.43,
+      "milk_readings": 3,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 548.25,
+      "current_weight_measured_at": "2024-07-10T22:00:00Z",
+      "avg_weight_30d_kg": 547.96,
+      "weight_readings_30d": 82
+    },
+    {
+      "cow_id": "8471d580-6405-438e-9eda-9eb61f4120b3",
+      "name": "Elizabeth #8",
+      "milk_liters": 14.03,
+      "milk_readings": 3,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 546.64,
+      "current_weight_measured_at": "2024-07-10T22:00:00Z",
+      "avg_weight_30d_kg": 548.38,
+      "weight_readings_30d": 75
+    },
+    {
+      "cow_id": "27c13817-4faf-49dd-8984-643a062e3d75",
+      "name": "Gail #2",
+      "milk_liters": 18.78,
+      "milk_readings": 4,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 539.37,
+      "current_weight_measured_at": "2024-07-10T14:00:00Z",
+      "avg_weight_30d_kg": 540.62,
+      "weight_readings_30d": 80
+    },
+    {
+      "cow_id": "f7e0cdbc-b23e-483a-8d78-b266a932a3c1",
+      "name": "Heather #5",
+      "milk_liters": 19.2,
+      "milk_readings": 4,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 543.1,
+      "current_weight_measured_at": "2024-07-10T22:00:00Z",
+      "avg_weight_30d_kg": 543.26,
+      "weight_readings_30d": 78
+    },
+    {
+      "cow_id": "dfce91b2-2f21-4d68-b613-3c0dc36160de",
+      "name": "Jacqueline #2",
+      "milk_liters": 14.34,
+      "milk_readings": 3,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 546.03,
+      "current_weight_measured_at": "2024-07-10T22:00:00Z",
+      "avg_weight_30d_kg": 546.03,
+      "weight_readings_30d": 80
+    },
+    {
+      "cow_id": "3593205a-bead-40d6-aad9-7ed1f2da4745",
+      "name": "Jacqueline #4",
+      "milk_liters": 4.51,
+      "milk_readings": 1,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 548.37,
+      "current_weight_measured_at": "2024-07-10T22:00:00Z",
+      "avg_weight_30d_kg": 548.76,
+      "weight_readings_30d": 72
+    },
+    {
+      "cow_id": "9aa0f9ba-c4a7-4f00-9c87-2730c26e09c1",
+      "name": "Jaime #5",
+      "milk_liters": 24.2,
+      "milk_readings": 5,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 555.33,
+      "current_weight_measured_at": "2024-07-10T06:00:00Z",
+      "avg_weight_30d_kg": 555.04,
+      "weight_readings_30d": 81
+    },
+    {
+      "cow_id": "f20b9926-d224-48cf-9047-f6c7cc0cae6e",
+      "name": "Jamie #9",
+      "milk_liters": 4.94,
+      "milk_readings": 1,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 549.51,
+      "current_weight_measured_at": "2024-07-10T22:00:00Z",
+      "avg_weight_30d_kg": 548.65,
+      "weight_readings_30d": 77
+    },
+    {
+      "cow_id": "90814108-2b03-4744-811b-9596c0bb4853",
+      "name": "Jean #4",
+      "milk_liters": 19.18,
+      "milk_readings": 4,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 548.75,
+      "current_weight_measured_at": "2024-07-10T22:00:00Z",
+      "avg_weight_30d_kg": 548.13,
+      "weight_readings_30d": 69
+    },
+    {
+      "cow_id": "6dd92947-643d-4121-8af3-65bb659f5200",
+      "name": "Jennifer #1",
+      "milk_liters": 23.9,
+      "milk_readings": 5,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 543.19,
+      "current_weight_measured_at": "2024-07-10T10:00:00Z",
+      "avg_weight_30d_kg": 543.98,
+      "weight_readings_30d": 73
+    },
+    {
+      "cow_id": "478be788-f84c-48da-8b62-c652cf2d118f",
+      "name": "Jennifer #4",
+      "milk_liters": 24.14,
+      "milk_readings": 5,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 552.55,
+      "current_weight_measured_at": "2024-07-10T22:00:00Z",
+      "avg_weight_30d_kg": 551.58,
+      "weight_readings_30d": 79
+    },
+    {
+      "cow_id": "225153da-f330-42b7-8e6c-ad3d57582d4f",
+      "name": "Jennifer #5",
+      "milk_liters": 13.76,
+      "milk_readings": 3,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 547.57,
+      "current_weight_measured_at": "2024-07-10T22:00:00Z",
+      "avg_weight_30d_kg": 546.79,
+      "weight_readings_30d": 81
+    },
+    {
+      "cow_id": "9b0bb133-05a4-4b72-9245-7333b1edb4f6",
+      "name": "Jennifer #7",
+      "milk_liters": 14.25,
+      "milk_readings": 3,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 561.42,
+      "current_weight_measured_at": "2024-07-10T18:00:00Z",
+      "avg_weight_30d_kg": 561.92,
+      "weight_readings_30d": 81
+    },
+    {
+      "cow_id": "f3208e67-07dc-4cfb-9ca1-b0d3750ea753",
+      "name": "Jennifer #7",
+      "milk_liters": 14.46,
+      "milk_readings": 3,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 549.17,
+      "current_weight_measured_at": "2024-07-10T10:00:00Z",
+      "avg_weight_30d_kg": 548.81,
+      "weight_readings_30d": 82
+    },
+    {
+      "cow_id": "2d4194fa-9319-41d7-aee2-d88a0f584722",
+      "name": "Jennifer #9",
+      "milk_liters": 19.27,
+      "milk_readings": 4,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 543.7,
+      "current_weight_measured_at": "2024-07-10T22:00:00Z",
+      "avg_weight_30d_kg": 543.25,
+      "weight_readings_30d": 75
+    },
+    {
+      "cow_id": "3b2547ed-de1a-4992-8494-bebabfaef6b4",
+      "name": "Jessica #9",
+      "milk_liters": 18.47,
+      "milk_readings": 4,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 547.03,
+      "current_weight_measured_at": "2024-07-10T22:00:00Z",
+      "avg_weight_30d_kg": 547.59,
+      "weight_readings_30d": 73
+    },
+    {
+      "cow_id": "33eb52d5-db1e-4a68-a911-f78574f12254",
+      "name": "Joanne #6",
+      "milk_liters": 13.88,
+      "milk_readings": 3,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 452.36,
+      "current_weight_measured_at": "2024-07-10T18:00:00Z",
+      "avg_weight_30d_kg": 500.69,
+      "weight_readings_30d": 94
+    },
+    {
+      "cow_id": "0461bf6a-4625-4c64-acb1-1221caeed82b",
+      "name": "Kara #9",
+      "milk_liters": 14.27,
+      "milk_readings": 3,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 547.89,
+      "current_weight_measured_at": "2024-07-10T14:00:00Z",
+      "avg_weight_30d_kg": 547.68,
+      "weight_readings_30d": 79
+    },
+    {
+      "cow_id": "84be669d-571c-444d-bd5f-709fce6ac9ba",
+      "name": "Karen #1",
+      "milk_liters": 9.75,
+      "milk_readings": 2,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 555.58,
+      "current_weight_measured_at": "2024-07-10T22:00:00Z",
+      "avg_weight_30d_kg": 555.48,
+      "weight_readings_30d": 89
+    },
+    {
+      "cow_id": "85334bbd-9b60-406e-b047-3520a2d4fbe5",
+      "name": "Karen #3",
+      "milk_liters": 24.12,
+      "milk_readings": 5,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 543.21,
+      "current_weight_measured_at": "2024-07-10T06:00:00Z",
+      "avg_weight_30d_kg": 542.7,
+      "weight_readings_30d": 79
+    },
+    {
+      "cow_id": "6496ce06-18c2-4dd3-bcc3-4c8195a8c1f7",
+      "name": "Karla #7",
+      "milk_liters": 9.58,
+      "milk_readings": 2,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 554.78,
+      "current_weight_measured_at": "2024-07-10T22:00:00Z",
+      "avg_weight_30d_kg": 555.08,
+      "weight_readings_30d": 70
+    },
+    {
+      "cow_id": "84e48780-6f4b-45cd-9756-fa0776a8013d",
+      "name": "Katherine #3",
+      "milk_liters": 14.04,
+      "milk_readings": 3,
+      "milk_invalid_readings": 1,
+      "current_weight_kg": 555.04,
+      "current_weight_measured_at": "2024-07-10T18:00:00Z",
+      "avg_weight_30d_kg": 556.11,
+      "weight_readings_30d": 78
+    },
+    {
+      "cow_id": "fdca214f-4dc6-4de4-b9dd-99094b619892",
+      "name": "Katherine #6",
+      "milk_liters": 9.48,
+      "milk_readings": 2,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 555.87,
+      "current_weight_measured_at": "2024-07-10T18:00:00Z",
+      "avg_weight_30d_kg": 556.39,
+      "weight_readings_30d": 93
+    },
+    {
+      "cow_id": "17d70345-5a06-4f01-aff5-3f7f95d7bc57",
+      "name": "Katherine #7",
+      "milk_liters": 18.91,
+      "milk_readings": 4,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 546.32,
+      "current_weight_measured_at": "2024-07-10T14:00:00Z",
+      "avg_weight_30d_kg": 547.22,
+      "weight_readings_30d": 77
+    },
+    {
+      "cow_id": "668d213f-6b1d-4aac-bdc6-cee5acf3476e",
+      "name": "Kathryn #1",
+      "milk_liters": 18.83,
+      "milk_readings": 4,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 543.54,
+      "current_weight_measured_at": "2024-07-10T18:00:00Z",
+      "avg_weight_30d_kg": 542.91,
+      "weight_readings_30d": 68
+    },
+    {
+      "cow_id": "3321b86f-3afb-4971-a773-3ae7c62bafec",
+      "name": "Kayla #2",
+      "milk_liters": 13.59,
+      "milk_readings": 3,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 563.06,
+      "current_weight_measured_at": "2024-07-10T22:00:00Z",
+      "avg_weight_30d_kg": 562.37,
+      "weight_readings_30d": 73
+    },
+    {
+      "cow_id": "4e48314b-bbea-4cf5-9bfd-3d7a3e6ba564",
+      "name": "Kelly #2",
+      "milk_liters": 4.94,
+      "milk_readings": 1,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 554.15,
+      "current_weight_measured_at": "2024-07-10T18:00:00Z",
+      "avg_weight_30d_kg": 554.1,
+      "weight_readings_30d": 80
+    },
+    {
+      "cow_id": "ef082efc-d476-4ca4-89a8-94d4cf09392a",
+      "name": "Kelly #4",
+      "milk_liters": 9.57,
+      "milk_readings": 2,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 552.78,
+      "current_weight_measured_at": "2024-07-10T22:00:00Z",
+      "avg_weight_30d_kg": 552.25,
+      "weight_readings_30d": 86
+    },
+    {
+      "cow_id": "168590c2-d95f-4e72-8749-cb08a1147065",
+      "name": "Kimberly #2",
+      "milk_liters": 9.62,
+      "milk_readings": 2,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 553.9,
+      "current_weight_measured_at": "2024-07-10T22:00:00Z",
+      "avg_weight_30d_kg": 552.44,
+      "weight_readings_30d": 73
+    },
+    {
+      "cow_id": "98d79b64-7a81-4e48-a311-932694c8058a",
+      "name": "Kirsten #1",
+      "milk_liters": 14.45,
+      "milk_readings": 3,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 544.95,
+      "current_weight_measured_at": "2024-07-10T18:00:00Z",
+      "avg_weight_30d_kg": 544.18,
+      "weight_readings_30d": 77
+    },
+    {
+      "cow_id": "924c7e6b-08f2-4871-954e-ae1f714cbcd4",
+      "name": "Krista #1",
+      "milk_liters": 9.46,
+      "milk_readings": 2,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 551.34,
+      "current_weight_measured_at": "2024-07-10T22:00:00Z",
+      "avg_weight_30d_kg": 551.3,
+      "weight_readings_30d": 84
+    },
+    {
+      "cow_id": "1b859b14-a75f-478b-bd9f-2d920b67dd0c",
+      "name": "Kristin #6",
+      "milk_liters": 14.37,
+      "milk_readings": 3,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 555.87,
+      "current_weight_measured_at": "2024-07-10T14:00:00Z",
+      "avg_weight_30d_kg": 555.36,
+      "weight_readings_30d": 83
+    },
+    {
+      "cow_id": "32a5db76-4c96-462a-b64c-7d89c7685183",
+      "name": "Laura #1",
+      "milk_liters": 18.76,
+      "milk_readings": 4,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 553.62,
+      "current_weight_measured_at": "2024-07-10T18:00:00Z",
+      "avg_weight_30d_kg": 553.88,
+      "weight_readings_30d": 83
+    },
+    {
+      "cow_id": "55e8420b-3a15-4b95-bb48-587cf40d8bc5",
+      "name": "Lauren #1",
+      "milk_liters": 9.39,
+      "milk_readings": 2,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 543.06,
+      "current_weight_measured_at": "2024-07-10T18:00:00Z",
+      "avg_weight_30d_kg": 542.71,
+      "weight_readings_30d": 75
+    },
+    {
+      "cow_id": "066d0252-6201-4bb1-adea-a50a03e419e3",
+      "name": "Leah #3",
+      "milk_liters": 4.77,
+      "milk_readings": 1,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 552.76,
+      "current_weight_measured_at": "2024-07-10T22:00:00Z",
+      "avg_weight_30d_kg": 551.44,
+      "weight_readings_30d": 91
+    },
+    {
+      "cow_id": "71122813-53a2-4a95-bc73-4a5725ab2d41",
+      "name": "Linda #3",
+      "milk_liters": 23.7,
+      "milk_readings": 5,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 549.49,
+      "current_weight_measured_at": "2024-07-10T18:00:00Z",
+      "avg_weight_30d_kg": 549.18,
+      "weight_readings_30d": 78
+    },
+    {
+      "cow_id": "c821a6b7-8dd0-4b4e-9835-1c0c57264ba4",
+      "name": "Lindsey #4",
+      "milk_liters": 9.32,
+      "milk_readings": 2,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 540.76,
+      "current_weight_measured_at": "2024-07-10T18:00:00Z",
+      "avg_weight_30d_kg": 541.52,
+      "weight_readings_30d": 86
+    },
+    {
+      "cow_id": "0ad881c5-606c-46f4-a504-a3bbb4e23870",
+      "name": "Lindsey #9",
+      "milk_liters": 23.78,
+      "milk_readings": 5,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 548.8,
+      "current_weight_measured_at": "2024-07-10T14:00:00Z",
+      "avg_weight_30d_kg": 549.83,
+      "weight_readings_30d": 81
+    },
+    {
+      "cow_id": "38b0394f-6654-4693-978d-20f361c8cb85",
+      "name": "Lisa #8",
+      "milk_liters": 9.35,
+      "milk_readings": 2,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 552.57,
+      "current_weight_measured_at": "2024-07-10T18:00:00Z",
+      "avg_weight_30d_kg": 552.32,
+      "weight_readings_30d": 81
+    },
+    {
+      "cow_id": "4bde2a83-195e-44ec-b5f1-92d011b7b671",
+      "name": "Lori #7",
+      "milk_liters": 14.02,
+      "milk_readings": 3,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 550.42,
+      "current_weight_measured_at": "2024-07-10T18:00:00Z",
+      "avg_weight_30d_kg": 549.8,
+      "weight_readings_30d": 71
+    },
+    {
+      "cow_id": "03b8549a-60f8-4669-a97c-dff0c27490b1",
+      "name": "Lynn #9",
+      "milk_liters": 18.61,
+      "milk_readings": 4,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 540.89,
+      "current_weight_measured_at": "2024-07-10T22:00:00Z",
+      "avg_weight_30d_kg": 540.1,
+      "weight_readings_30d": 73
+    },
+    {
+      "cow_id": "d1cf533d-d30d-457e-bea5-dd7d11db5139",
+      "name": "Margaret #5",
+      "milk_liters": 9.96,
+      "milk_readings": 2,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 540.12,
+      "current_weight_measured_at": "2024-07-10T22:00:00Z",
+      "avg_weight_30d_kg": 539.59,
+      "weight_readings_30d": 81
+    },
+    {
+      "cow_id": "1eea703e-9d56-4983-986f-69e4b61c9ed5",
+      "name": "Maria #3",
+      "milk_liters": 14.55,
+      "milk_readings": 3,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 547.35,
+      "current_weight_measured_at": "2024-07-10T22:00:00Z",
+      "avg_weight_30d_kg": 546.87,
+      "weight_readings_30d": 85
+    },
+    {
+      "cow_id": "c59bf2d4-433a-4de8-9927-b05cb6633cad",
+      "name": "Marilyn #6",
+      "milk_liters": 14.27,
+      "milk_readings": 3,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 549.49,
+      "current_weight_measured_at": "2024-07-10T22:00:00Z",
+      "avg_weight_30d_kg": 550.13,
+      "weight_readings_30d": 87
+    },
+    {
+      "cow_id": "9099f5b7-22f8-45b7-80e7-00c95eaae485",
+      "name": "Martha #7",
+      "milk_liters": 18.91,
+      "milk_readings": 4,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 558.08,
+      "current_weight_measured_at": "2024-07-10T14:00:00Z",
+      "avg_weight_30d_kg": 557.2,
+      "weight_readings_30d": 91
+    },
+    {
+      "cow_id": "7203c734-bdb2-421e-a97a-d62c9ada2d10",
+      "name": "Mary #1",
+      "milk_liters": 23.88,
+      "milk_readings": 5,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 558.93,
+      "current_weight_measured_at": "2024-07-10T14:00:00Z",
+      "avg_weight_30d_kg": 560.54,
+      "weight_readings_30d": 77
+    },
+    {
+      "cow_id": "1b3641d0-954b-4a88-98de-29d22e7222e7",
+      "name": "Mary #8",
+      "milk_liters": 23.59,
+      "milk_readings": 5,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 543.02,
+      "current_weight_measured_at": "2024-07-10T22:00:00Z",
+      "avg_weight_30d_kg": 542.98,
+      "weight_readings_30d": 68
+    },
+    {
+      "cow_id": "b38009eb-dc16-492d-9584-076fe51fd2ad",
+      "name": "Mary #8",
+      "milk_liters": 18.99,
+      "milk_readings": 4,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 542.99,
+      "current_weight_measured_at": "2024-07-10T14:00:00Z",
+      "avg_weight_30d_kg": 542.83,
+      "weight_readings_30d": 66
+    },
+    {
+      "cow_id": "fdb09b0b-9adf-41d2-9c83-b2e4ccd64c31",
+      "name": "Melanie #8",
+      "milk_liters": 9.63,
+      "milk_readings": 2,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 549.01,
+      "current_weight_measured_at": "2024-07-10T22:00:00Z",
+      "avg_weight_30d_kg": 548.65,
+      "weight_readings_30d": 87
+    },
+    {
+      "cow_id": "9351349b-0f0f-47b6-a67d-3b0fe843b019",
+      "name": "Melody #5",
+      "milk_liters": 19.33,
+      "milk_readings": 4,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 553.77,
+      "current_weight_measured_at": "2024-07-10T10:00:00Z",
+      "avg_weight_30d_kg": 553.47,
+      "weight_readings_30d": 92
+    },
+    {
+      "cow_id": "701861d0-d1eb-48f1-af03-8f2ffe7a6b17",
+      "name": "Michelle #2",
+      "milk_liters": 14.03,
+      "milk_readings": 3,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 551.54,
+      "current_weight_measured_at": "2024-07-10T06:00:00Z",
+      "avg_weight_30d_kg": 551.19,
+      "weight_readings_30d": 79
+    },
+    {
+      "cow_id": "68923fdd-d829-4985-8851-546613c6e078",
+      "name": "Natalie #2",
+      "milk_liters": 19.2,
+      "milk_readings": 4,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 534.58,
+      "current_weight_measured_at": "2024-07-10T14:00:00Z",
+      "avg_weight_30d_kg": 535.0,
+      "weight_readings_30d": 91
+    },
+    {
+      "cow_id": "219f0c25-d395-418d-b361-229c47588770",
+      "name": "Natasha #7",
+      "milk_liters": 19.13,
+      "milk_readings": 4,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 544.66,
+      "current_weight_measured_at": "2024-07-10T06:00:00Z",
+      "avg_weight_30d_kg": 544.55,
+      "weight_readings_30d": 86
+    },
+    {
+      "cow_id": "48c17eb9-ae9d-4965-a916-c4bfe1c3a3ef",
+      "name": "Nichole #2",
+      "milk_liters": 4.85,
+      "milk_readings": 1,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 555.06,
+      "current_weight_measured_at": "2024-07-10T22:00:00Z",
+      "avg_weight_30d_kg": 555.54,
+      "weight_readings_30d": 88
+    },
+    {
+      "cow_id": "844fc847-a0aa-4473-a42d-d4c13cd1eba9",
+      "name": "Nicole #4",
+      "milk_liters": 9.72,
+      "milk_readings": 2,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 546.88,
+      "current_weight_measured_at": "2024-07-10T22:00:00Z",
+      "avg_weight_30d_kg": 547.6,
+      "weight_readings_30d": 73
+    },
+    {
+      "cow_id": "aa45b1f9-7982-4e84-b952-668d652e83f5",
+      "name": "Nicole #4",
+      "milk_liters": 9.52,
+      "milk_readings": 2,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 555.12,
+      "current_weight_measured_at": "2024-07-10T22:00:00Z",
+      "avg_weight_30d_kg": 557.07,
+      "weight_readings_30d": 86
+    },
+    {
+      "cow_id": "c36323f9-5ca6-4325-a8d5-6cac0ddb4d63",
+      "name": "Paige #5",
+      "milk_liters": 14.77,
+      "milk_readings": 3,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 543.14,
+      "current_weight_measured_at": "2024-07-10T22:00:00Z",
+      "avg_weight_30d_kg": 544.15,
+      "weight_readings_30d": 76
+    },
+    {
+      "cow_id": "95e7312d-9447-4c40-a382-ef30d850e997",
+      "name": "Pamela #4",
+      "milk_liters": 14.19,
+      "milk_readings": 3,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 550.19,
+      "current_weight_measured_at": "2024-07-10T22:00:00Z",
+      "avg_weight_30d_kg": 549.58,
+      "weight_readings_30d": 72
+    },
+    {
+      "cow_id": "04f886f9-56df-452e-afba-ce3eb8a010c4",
+      "name": "Patricia #5",
+      "milk_liters": 14.07,
+      "milk_readings": 3,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 542.08,
+      "current_weight_measured_at": "2024-07-10T18:00:00Z",
+      "avg_weight_30d_kg": 542.35,
+      "weight_readings_30d": 74
+    },
+    {
+      "cow_id": "51803b38-c52d-4366-aced-fb05039408d0",
+      "name": "Rebecca #5",
+      "milk_liters": 4.86,
+      "milk_readings": 1,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 544.5,
+      "current_weight_measured_at": "2024-07-10T22:00:00Z",
+      "avg_weight_30d_kg": 542.93,
+      "weight_readings_30d": 88
+    },
+    {
+      "cow_id": "c3aa0df9-276c-4e2f-b60d-ac617d0ef84c",
+      "name": "Rhonda #8",
+      "milk_liters": 9.57,
+      "milk_readings": 2,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 547.68,
+      "current_weight_measured_at": "2024-07-10T18:00:00Z",
+      "avg_weight_30d_kg": 547.62,
+      "weight_readings_30d": 79
+    },
+    {
+      "cow_id": "008d8c76-b26e-4780-b65a-cec19c9984b6",
+      "name": "Robin #3",
+      "milk_liters": 14.33,
+      "milk_readings": 3,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 554.42,
+      "current_weight_measured_at": "2024-07-10T14:00:00Z",
+      "avg_weight_30d_kg": 554.53,
+      "weight_readings_30d": 91
+    },
+    {
+      "cow_id": "9c6cd124-db49-45cf-8973-b47419c74518",
+      "name": "Ruth #4",
+      "milk_liters": 9.57,
+      "milk_readings": 2,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 537.46,
+      "current_weight_measured_at": "2024-07-10T22:00:00Z",
+      "avg_weight_30d_kg": 536.95,
+      "weight_readings_30d": 78
+    },
+    {
+      "cow_id": "aea1439d-68a9-4e0b-a757-76dbe7fe6561",
+      "name": "Sandra #3",
+      "milk_liters": 9.28,
+      "milk_readings": 2,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 559.0,
+      "current_weight_measured_at": "2024-07-10T22:00:00Z",
+      "avg_weight_30d_kg": 558.63,
+      "weight_readings_30d": 90
+    },
+    {
+      "cow_id": "e3fdb0b6-d8ed-46c2-b0e2-0855373ddb49",
+      "name": "Sara #7",
+      "milk_liters": 13.75,
+      "milk_readings": 3,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 557.33,
+      "current_weight_measured_at": "2024-07-10T18:00:00Z",
+      "avg_weight_30d_kg": 557.1,
+      "weight_readings_30d": 81
+    },
+    {
+      "cow_id": "15f06691-ab7b-4cac-89a9-dc7c6554c9c1",
+      "name": "Sarah #1",
+      "milk_liters": 19.09,
+      "milk_readings": 4,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 545.68,
+      "current_weight_measured_at": "2024-07-10T22:00:00Z",
+      "avg_weight_30d_kg": 546.1,
+      "weight_readings_30d": 89
+    },
+    {
+      "cow_id": "18fc0a5c-890f-4dd6-bde3-3e9a6ebf953e",
+      "name": "Shannon #8",
+      "milk_liters": 9.09,
+      "milk_readings": 2,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 547.1,
+      "current_weight_measured_at": "2024-07-10T22:00:00Z",
+      "avg_weight_30d_kg": 547.43,
+      "weight_readings_30d": 87
+    },
+    {
+      "cow_id": "0f3f64e9-44e6-4ac7-871b-9d50d251b556",
+      "name": "Sharon #2",
+      "milk_liters": 9.88,
+      "milk_readings": 2,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 541.7,
+      "current_weight_measured_at": "2024-07-10T18:00:00Z",
+      "avg_weight_30d_kg": 543.6,
+      "weight_readings_30d": 87
+    },
+    {
+      "cow_id": "b154d214-6d5d-44af-94f2-fb8c41de35cb",
+      "name": "Sheila #6",
+      "milk_liters": 9.44,
+      "milk_readings": 2,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 545.29,
+      "current_weight_measured_at": "2024-07-10T18:00:00Z",
+      "avg_weight_30d_kg": 545.81,
+      "weight_readings_30d": 77
+    },
+    {
+      "cow_id": "14af9acf-968f-46c2-8e2e-0a6b361ba4c5",
+      "name": "Sherri #4",
+      "milk_liters": 13.93,
+      "milk_readings": 3,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 552.99,
+      "current_weight_measured_at": "2024-07-10T18:00:00Z",
+      "avg_weight_30d_kg": 553.03,
+      "weight_readings_30d": 81
+    },
+    {
+      "cow_id": "fa5625d5-d657-40a7-9de9-a52af87aef1f",
+      "name": "Stacy #9",
+      "milk_liters": 4.51,
+      "milk_readings": 1,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 454.3,
+      "current_weight_measured_at": "2024-07-10T22:00:00Z",
+      "avg_weight_30d_kg": 502.85,
+      "weight_readings_30d": 97
+    },
+    {
+      "cow_id": "5b0155f2-8d9f-469d-be25-9ba4abfb3974",
+      "name": "Stephanie #5",
+      "milk_liters": 18.38,
+      "milk_readings": 4,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 551.37,
+      "current_weight_measured_at": "2024-07-10T22:00:00Z",
+      "avg_weight_30d_kg": 549.38,
+      "weight_readings_30d": 73
+    },
+    {
+      "cow_id": "7b85bc65-556e-4dbc-82b5-80b148c4044d",
+      "name": "Tammie #5",
+      "milk_liters": 23.37,
+      "milk_readings": 5,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 550.35,
+      "current_weight_measured_at": "2024-07-10T18:00:00Z",
+      "avg_weight_30d_kg": 550.6,
+      "weight_readings_30d": 84
+    },
+    {
+      "cow_id": "b67bde0b-872d-4944-82d8-5e48806c2586",
+      "name": "Tara #3",
+      "milk_liters": 19.43,
+      "milk_readings": 4,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 565.79,
+      "current_weight_measured_at": "2024-07-10T18:00:00Z",
+      "avg_weight_30d_kg": 565.02,
+      "weight_readings_30d": 71
+    },
+    {
+      "cow_id": "9e3d2393-2f17-43b7-b7c1-a2ffa7ea6c2f",
+      "name": "Teresa #2",
+      "milk_liters": 19.05,
+      "milk_readings": 4,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 560.82,
+      "current_weight_measured_at": "2024-07-10T18:00:00Z",
+      "avg_weight_30d_kg": 561.6,
+      "weight_readings_30d": 81
+    },
+    {
+      "cow_id": "76d85b9b-b63d-450e-af2f-18bb742b5964",
+      "name": "Theresa #6",
+      "milk_liters": 14.3,
+      "milk_readings": 3,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 551.4,
+      "current_weight_measured_at": "2024-07-10T22:00:00Z",
+      "avg_weight_30d_kg": 551.65,
+      "weight_readings_30d": 78
+    },
+    {
+      "cow_id": "47e64bdf-1ae8-4e44-98b5-3250dd2c787c",
+      "name": "Tina #1",
+      "milk_liters": 19.54,
+      "milk_readings": 4,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 535.99,
+      "current_weight_measured_at": "2024-07-10T18:00:00Z",
+      "avg_weight_30d_kg": 535.54,
+      "weight_readings_30d": 93
+    },
+    {
+      "cow_id": "562c2685-8485-4c95-a1d5-c51a0e593dc0",
+      "name": "Valerie #1",
+      "milk_liters": 14.62,
+      "milk_readings": 3,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 548.72,
+      "current_weight_measured_at": "2024-07-10T14:00:00Z",
+      "avg_weight_30d_kg": 548.61,
+      "weight_readings_30d": 70
+    },
+    {
+      "cow_id": "edb28bf0-bf09-4469-b9b3-7d2a1dd45ff1",
+      "name": "Veronica #4",
+      "milk_liters": 18.83,
+      "milk_readings": 4,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 549.85,
+      "current_weight_measured_at": "2024-07-10T10:00:00Z",
+      "avg_weight_30d_kg": 550.9,
+      "weight_readings_30d": 89
+    },
+    {
+      "cow_id": "9063220a-7a93-404a-873b-fd3d61ed205c",
+      "name": "Wanda #6",
+      "milk_liters": 24.03,
+      "milk_readings": 5,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 548.64,
+      "current_weight_measured_at": "2024-07-10T02:00:00Z",
+      "avg_weight_30d_kg": 548.69,
+      "weight_readings_30d": 75
+    },
+    {
+      "cow_id": "706a23c4-e240-4b8b-a894-2b4b631184b9",
+      "name": "Yvonne #2",
+      "milk_liters": 9.41,
+      "milk_readings": 2,
+      "milk_invalid_readings": 0,
+      "current_weight_kg": 553.81,
+      "current_weight_measured_at": "2024-07-10T14:00:00Z",
+      "avg_weight_30d_kg": 554.02,
+      "weight_readings_30d": 70
+    }
+  ],
+  "farm_milk_liters": 1893.78,
+  "possible_illness": [
+    {
+      "cow_id": "4b54f862-7dd7-4569-950c-e071fd13c575",
+      "name": "Anne #4",
+      "reasons": [
+        "weight down 8.8%: 475.0 kg (last 3d) vs 521.1 kg (days -30 to -7)"
+      ]
+    },
+    {
+      "cow_id": "33eb52d5-db1e-4a68-a911-f78574f12254",
+      "name": "Joanne #6",
+      "reasons": [
+        "weight down 10.9%: 457.1 kg (last 3d) vs 513.1 kg (days -30 to -7)"
+      ]
+    },
+    {
+      "cow_id": "fa5625d5-d657-40a7-9de9-a52af87aef1f",
+      "name": "Stacy #9",
+      "reasons": [
+        "weight down 10.8%: 459.1 kg (last 3d) vs 514.7 kg (days -30 to -7)"
+      ]
+    }
+  ],
+  "data_quality": {
+    "readings_by_quality": {
+      "milk": {
+        "missing": 2,
+        "valid": 399
+      },
+      "weight": {
+        "missing": 1,
+        "negative": 6,
+        "valid": 350,
+        "zero": 10
+      }
+    },
+    "cows_without_valid_milk": [
+      "Cheryl #5 [4ab95eda]",
+      "Dominique #2 [adadab8b]"
+    ],
+    "faulty_sensors": [
+      {
+        "sensor_id": "74932a2e-fb29-4d57-bdff-1acfafb71398",
+        "invalid_readings": 5,
+        "total_readings": 5
+      },
+      {
+        "sensor_id": "a8d52b06-a042-4e13-91a1-5e86efa2ff17",
+        "invalid_readings": 5,
+        "total_readings": 5
+      },
+      {
+        "sensor_id": "91440d7d-8a85-4f13-92f1-0225add2e538",
+        "invalid_readings": 4,
+        "total_readings": 4
+      },
+      {
+        "sensor_id": "3459d3dd-b662-40eb-931e-931701cbeef7",
+        "invalid_readings": 3,
+        "total_readings": 3
+      },
+      {
+        "sensor_id": "98962937-0a24-41db-bdab-c7d2d73e56ef",
+        "invalid_readings": 2,
+        "total_readings": 2
+      }
+    ]
+  }
+}
