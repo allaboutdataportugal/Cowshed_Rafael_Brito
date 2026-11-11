@@ -39,6 +39,9 @@ def _parser() -> argparse.ArgumentParser:
     sim.add_argument("--api-url", default="http://127.0.0.1:8000")
     sim.add_argument("--concurrency", type=int, default=8)
     sim.add_argument("--limit", type=int, default=None, help="only send the first N measurements")
+    sim.add_argument(
+        "--since", type=date.fromisoformat, default=None, help="only send measurements from YYYY-MM-DD (UTC)"
+    )
 
     report = sub.add_parser("report", help="generate the daily report for one date")
     report.add_argument(
@@ -77,7 +80,9 @@ def main(argv: list[str] | None = None) -> int:
                 limits = httpx.Limits(max_connections=1, max_keepalive_connections=1)
                 return httpx.AsyncClient(base_url=args.api_url, timeout=30, limits=limits)
 
-            result = await run_simulation(make_client, args.data_dir, args.concurrency, args.limit)
+            result = await run_simulation(
+                make_client, args.data_dir, args.concurrency, args.limit, args.since
+            )
             failed = result.cows.failed + result.sensors.failed + result.measurements.failed
             for sample in result.measurements.rejected_samples:
                 logging.warning("rejected: %s", sample)

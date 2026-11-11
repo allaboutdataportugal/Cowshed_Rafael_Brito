@@ -23,6 +23,7 @@ from pathlib import Path
 from typing import Any
 
 import httpx
+import pyarrow.compute as pc
 import pyarrow.parquet as pq
 from typeguard import typechecked
 
@@ -87,8 +88,14 @@ def sensor_requests(data_dir: Path) -> Iterator[tuple[str, dict[str, Any]]]:
 
 
 @typechecked
-def measurement_requests(data_dir: Path, limit: int | None = None) -> Iterator[tuple[str, dict[str, Any]]]:
+def measurement_requests(
+    data_dir: Path, limit: int | None = None, since: date | None = None
+) -> Iterator[tuple[str, dict[str, Any]]]:
+    """Readings in chronological order, optionally only from ``since`` (UTC) and/or the first ``limit``."""
     table = _read(data_dir / "measurements.parquet", ["sensor_id", "cow_id", "timestamp", "value"])
+    if since is not None:
+        cutoff = datetime.combine(since, datetime.min.time(), tzinfo=timezone.utc).timestamp()
+        table = table.filter(pc.greater_equal(table["timestamp"], cutoff))
     table = table.sort_by([("timestamp", "ascending")])  # replay in the order sensors produced them
     if limit is not None:
         table = table.slice(0, limit)
@@ -166,6 +173,7 @@ async def run_simulation(
     data_dir: Path,
     concurrency: int = 8,
     limit: int | None = None,
+    since: date | None = None,
 ) -> SimulationResult:
     if concurrency < 1:
         raise ValueError("concurrency must be >= 1")
@@ -176,5 +184,5 @@ async def run_simulation(
         clients = [await stack.enter_async_context(make_client()) for _ in range(concurrency)]
         cows = await send_all(clients, cow_requests(data_dir), label="cows")
         sensors = await send_all(clients, sensor_requests(data_dir), label="sensors")
-        readings = await send_all(clients, measurement_requests(data_dir, limit), label="measurements")
+        readings = await send_all(clients, measurement_requests(data_dir, limit, since), label="measurements")
     return SimulationResult(cows, sensors, readings)

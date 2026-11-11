@@ -1,5 +1,7 @@
 # Cowshed
 
+[![CI](https://github.com/allaboutdataportugal/Cowshed/actions/workflows/ci.yml/badge.svg)](https://github.com/allaboutdataportugal/Cowshed/actions/workflows/ci.yml)
+
 Sensor ingestion API and daily farm reports for Ingrid's cowshed.
 
 * **API** (FastAPI) to register cows and sensors and to receive milk and weight readings.
@@ -33,12 +35,22 @@ cowshed/
 ├── terraform/            local infrastructure: Postgres, API, scheduler, optional seed
 ├── docker-compose.yml    same stack without Terraform
 ├── Dockerfile
-├── tests/                44 unit/integration tests (pytest)
+├── tests/                45 unit/integration tests (pytest)
 ├── docs/
 │   ├── DESIGN.md         how it was built and why
 │   └── sample_reports/   reports generated from the provided datasets
-└── scripts/demo.ps1      end-to-end demo on Windows without Docker
+├── scripts/
+│   ├── demo.ps1              end-to-end demo on Windows without Docker
+│   └── make_sample_data.py   small synthetic dataset (same schema) for CI and quick trials
+└── .github/workflows/    CI: lint, types, tests, Docker Compose and Terraform end to end
 ```
+
+Every push runs the whole chain in GitHub Actions. On a clean Linux machine it:
+
+* builds the image;
+* `terraform apply`s the stack and seeds it through the API;
+* checks the API, the report, the plain-SQL report and persistence across a restart;
+* runs `terraform destroy`.
 
 ---
 
@@ -93,11 +105,21 @@ cowshed simulate --data-dir /path/to/cow_data       # terminal 2
 cowshed report --date 2024-07-10                    # text report on stdout
 ```
 
-On Windows, `scripts\demo.ps1 -DataDir C:\path\to\cow_data` does all of the above.
+On Windows, `scripts\demo.ps1 -DataDir C:\path\to\cow_data` does all of the above. By
+default it replays June–July 2024 (`--since 2024-06-01`, about 5 minutes), which is
+enough for the 2024-07-10 report and its illness alerts.
+
+No parquet files at hand? `python scripts/make_sample_data.py sample_data` writes a
+small dataset with the same schema, including one cow that loses weight.
+
+> **Linux hosts.** The scheduler writes the reports into a bind-mounted folder. Run it
+> as your own user: `COWSHED_UID=$(id -u) docker compose up -d`, or
+> `terraform apply -var reports_uid=$(id -u)`. Docker Desktop (Windows/macOS) needs nothing.
 
 > **Replay time on a laptop.** One HTTP request per reading runs at about 70–110
 > readings/s on a regular laptop, so all 563,627 readings take 1.5–2.5 h. For a live
-> demo, use `--limit 20000` (a few minutes). See [DESIGN.md §12](docs/DESIGN.md#12-trade-offs-and-next-steps).
+> demo, replay only the recent weeks: `cowshed simulate --since 2024-06-01 ...` (~31k
+> readings, about 5 minutes); `--limit N` caps the number of readings. See [DESIGN.md §12](docs/DESIGN.md#12-trade-offs-and-next-steps).
 >
 > **Durability vs speed with SQLite.** By default every committed reading is fsynced
 > (`COWSHED_SQLITE_SYNCHRONOUS=FULL`). For a one-off bulk replay you can set `NORMAL`,
@@ -204,7 +226,7 @@ The same report is also available as plain SQL: `sql/queries/daily_report.sql`.
 ## 5. Quality checks
 
 ```bash
-pytest              # 44 tests: API, validation, persistence across restart, reports, simulator
+pytest              # 45 tests: API, validation, persistence across restart, reports, simulator
 ruff check src tests
 mypy                # strict
 ```

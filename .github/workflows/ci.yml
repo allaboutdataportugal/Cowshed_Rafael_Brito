@@ -1,0 +1,119 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  quality:
+    name: Lint, types and tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -e ".[dev]"
+      - run: ruff check src tests scripts
+      - run: ruff format --check src tests scripts
+      - run: mypy
+      - run: pytest -v
+
+  compose:
+    name: Docker Compose end to end
+    runs-on: ubuntu-latest
+    needs: quality
+    env:
+      COW_DATA_DIR: ./sample_data
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Generate sample data
+        run: pip install pyarrow && python scripts/make_sample_data.py sample_data
+      - name: Start db + api + scheduler
+        run: |
+          mkdir -p reports
+          export COWSHED_UID=$(id -u)
+          docker compose up -d --build --wait
+      - name: Seed through the API (one request per record)
+        run: COWSHED_UID=$(id -u) docker compose --profile seed run --rm seed
+      - name: Check API, report and SQL
+        run: |
+          set -euo pipefail
+          curl -fsS localhost:8000/cows/c0000000-0000-4000-8000-000000000003 | tee /dev/stderr | grep -q '"Sick #1"'
+          curl -fsS "localhost:8000/reports/daily?date=2024-07-10&format=text" | tee report.txt
+          grep -q "POSSIBLE ILLNESS (1 cows)" report.txt
+          grep -q "Sick #1" report.txt
+          docker compose exec -T scheduler cowshed report --date 2024-07-10 --publish /reports
+          test -s reports/date=2024-07-10/cowshed_report_2024-07-10.txt
+          docker compose exec -T db psql -U cowshed -d cowshed -v report_date=2024-07-10 -v tz=UTC \
+            < sql/queries/daily_report.sql | tee sql_report.txt
+          grep -q "Sick #1" sql_report.txt
+      - name: Data survives a restart
+        run: |
+          set -euo pipefail
+          docker compose down
+          COWSHED_UID=$(id -u) docker compose up -d --wait
+          curl -fsS localhost:8000/cows/c0000000-0000-4000-8000-000000000003 | grep -q latest_measurement
+      - name: Logs on failure
+        if: failure()
+        run: docker compose logs
+
+  terraform:
+    name: Terraform end to end
+    runs-on: ubuntu-latest
+    needs: quality
+    defaults:
+      run:
+        working-directory: terraform
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: hashicorp/setup-terraform@v3
+        with:
+          terraform_version: "1.9.8"
+          terraform_wrapper: false
+      - name: Generate sample data
+        working-directory: .
+        run: pip install pyarrow && python scripts/make_sample_data.py sample_data && mkdir -p reports
+      - run: terraform fmt -check -recursive
+      - run: terraform init -input=false
+      - run: terraform validate
+      - name: Apply (db, api, scheduler, seed)
+        run: |
+          terraform apply -auto-approve -input=false \
+            -var run_seed=true -var cow_data_dir=../sample_data -var reports_uid=$(id -u)
+      - name: Wait for the seed and check the stack
+        run: |
+          set -euo pipefail
+          test "$(docker wait cowshed-seed)" = "0"
+          docker logs cowshed-seed 2>&1 | tail -5
+          API=$(terraform output -raw api_url)
+          curl -fsS "$API/reports/daily?date=2024-07-10&format=text" | tee report.txt
+          grep -q "Sick #1" report.txt
+          docker exec cowshed-scheduler cowshed report --date 2024-07-10 --publish /reports
+          test -s ../reports/date=2024-07-10/cowshed_report_2024-07-10.json
+          docker exec cowshed-db psql -U cowshed -d cowshed -Atc "select count(*) from v_daily_milk_per_cow"
+      - name: Re-apply is a no-op
+        run: |
+          terraform plan -detailed-exitcode -input=false \
+            -var run_seed=true -var cow_data_dir=../sample_data -var reports_uid=$(id -u) \
+            || { code=$?; [ "$code" -eq 2 ] && echo "::warning::plan shows drift"; [ "$code" -ne 1 ]; }
+      - name: Logs on failure
+        if: failure()
+        run: for c in cowshed-db cowshed-api cowshed-scheduler cowshed-seed; do docker logs $c 2>&1 | tail -30 || true; done
+      - name: Destroy
+        if: always()
+        run: |
+          terraform destroy -auto-approve -input=false \
+            -var run_seed=true -var cow_data_dir=../sample_data -var reports_uid=$(id -u)

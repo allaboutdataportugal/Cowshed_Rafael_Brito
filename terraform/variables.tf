@@ -56,6 +56,12 @@ variable "reports_dir" {
   default     = ""
 }
 
+variable "reports_uid" {
+  description = "User id the scheduler runs as, so it can write into reports_dir. On Linux pass your own: -var reports_uid=$(id -u)."
+  type        = string
+  default     = "10001"
+}
+
 variable "run_seed" {
   description = "Start the simulator once to replay the parquet datasets into the API."
   type        = bool

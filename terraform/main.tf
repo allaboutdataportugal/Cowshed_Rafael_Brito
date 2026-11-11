@@ -153,6 +153,7 @@ resource "docker_container" "scheduler" {
   restart = "unless-stopped"
   env     = local.app_env
   command = ["cowshed", "schedule", "--at", var.report_time, "--publish", "/reports"]
+  user    = var.reports_uid
 
   networks_advanced {
     name = docker_network.this.id

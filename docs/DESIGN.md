@@ -19,7 +19,7 @@ changes when the system serves every farm in Europe.
 | Data persisted across restarts | PostgreSQL on a named Docker volume (SQLite file for development). Test: `tests/test_persistence.py` |
 | Null and negative values handled, with justified assumptions | §3 |
 | Type hints enforced at runtime, data validated | §6 |
-| Best practices and unit tests | 44 tests, `ruff`, `mypy --strict`, layered code |
+| Best practices and unit tests | 45 tests, `ruff`, `mypy --strict`, layered code, CI running Docker Compose and Terraform end to end |
 | Scalability to all farms in Europe | §11 |
 | How the daily process would look in reality | §7.4 and §11 |
 
@@ -304,7 +304,7 @@ What does **not** change, because it was built in from the start:
 
 ## 12. Trade-offs and next steps
 
-* **One request per reading, measured on a regular laptop.** Ingestion runs at about 70–110 readings/s end to end (Docker Desktop on Windows), so replaying all 563,627 readings takes roughly 1.5–2.5 hours. The limit is the laptop's CPU, which runs the simulator, the API and the database at the same time; the database stays mostly idle. `--limit` gives a quick demo. The two optimisations already applied:
+* **One request per reading, measured on a regular laptop.** Ingestion runs at about 70–110 readings/s end to end (Docker Desktop on Windows), so replaying all 563,627 readings takes roughly 1.5–2.5 hours. The limit is the laptop's CPU, which runs the simulator, the API and the database at the same time; the database stays mostly idle. `--since 2024-06-01` replays just the weeks the 2024-07-10 report needs, in about 5 minutes. The two optimisations already applied:
   * each simulator worker has its own HTTP connection, because httpx's shared pool was CPU-bound;
   * `sniffio` is a declared dependency, because without it httpcore re-scans `sys.path` on every request.
 

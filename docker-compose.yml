@@ -42,6 +42,7 @@ services:
   scheduler:
     image: cowshed:latest
     command: ["cowshed", "schedule", "--at", "01:00", "--publish", "/reports"]
+    user: "${COWSHED_UID:-10001}"   # on Linux: COWSHED_UID=$(id -u) so it can write ./reports
     environment: *app-env
     volumes:
       - ./reports:/reports

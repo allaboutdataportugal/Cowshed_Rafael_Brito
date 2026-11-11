@@ -60,6 +60,13 @@ def test_measurements_are_replayed_in_time_order_with_nulls(tmp_path: Path) -> N
     assert requests[0][0] == f"/sensors/{MILK_SENSOR}/measurements"
 
 
+def test_since_and_limit_select_a_window(tmp_path: Path) -> None:
+    data = _write_datasets(tmp_path / "data")
+    assert len(list(measurement_requests(data, since=date(2024, 7, 3)))) == 4
+    assert list(measurement_requests(data, since=date(2024, 7, 4))) == []
+    assert [r[1]["value"] for r in measurement_requests(data, limit=2)] == [4.7, 550.0]
+
+
 def test_simulation_end_to_end_and_rerun_is_safe(tmp_path: Path, db_url: str) -> None:
     data = _write_datasets(tmp_path / "data")
     app = create_app(Settings(database_url=db_url, report_dir=str(tmp_path)))
