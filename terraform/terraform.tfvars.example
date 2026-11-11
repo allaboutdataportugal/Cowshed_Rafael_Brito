@@ -1,0 +1,9 @@
+# Copy to terraform.tfvars and adjust.
+report_timezone = "Europe/Amsterdam"
+report_time     = "01:00"
+api_port        = 8000
+api_workers     = 4
+
+# Replay the provided datasets once after the stack is up.
+run_seed     = true
+cow_data_dir = "C:/Users/<you>/Downloads/cow_data"
