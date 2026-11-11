@@ -1,6 +1,6 @@
 # Cowshed
 
-[![CI](https://github.com/allaboutdataportugal/Cowshed/actions/workflows/ci.yml/badge.svg)](https://github.com/allaboutdataportugal/Cowshed/actions/workflows/ci.yml)
+[![CI](https://github.com/allaboutdataportugal/Cowshed_Rafael_Brito/actions/workflows/ci.yml/badge.svg)](https://github.com/allaboutdataportugal/Cowshed_Rafael_Brito/actions/workflows/ci.yml)
 
 Sensor ingestion API and daily farm reports for Ingrid's cowshed.
 
